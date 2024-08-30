@@ -1,0 +1,226 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 15px;
+  font-family: monospace;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu {
+  background-color: lightpink;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu .logo-img {
+  height: 50px;
+  border-radius: 10px;
+  position: relative;
+  top: 5px;
+}
+.menu .menu-logo {
+  color: white;
+  font-size: 35px;
+  position: relative;
+  align-items: center;
+  bottom: 10px;
+  left: 10px;
+}
+.menu .menu__itm {
+  color: white;
+  font-size: 25px;
+}
+.menu .menu__itm .itm-link {
+  margin: 0 30px;
+}
+.menu .header__contact {
+  color: white;
+  line-height: 20px;
+}
+.menu .contact-phoneNumber {
+  font-size: 20px;
+}
+.menu .contact-email {
+  font-size: 20px;
+}
+
+.active {
+  background: rgb(247, 157, 170);
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.main__container .about-container {
+  display: flex;
+  justify-content: center;
+}
+.main__container .about-container .about__container-description {
+  color: white;
+  background: lightpink;
+  width: 900px;
+  margin: 120px;
+  line-height: 30px;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px black solid;
+  font-size: 25px;
+  font-family: cursive;
+}
+
+.footer {
+  width: 100%;
+  height: 150px;
+  background: lightpink;
+}
+.footer .footer-img {
+  width: 100px;
+  border-radius: 7px;
+}
+.footer .footer__container {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 30px;
+}
+.footer .footer__container .footer__logo {
+  display: flex;
+  align-items: center;
+}
+.footer .footer__container .footer__logo .domain {
+  font-size: 40px;
+  font-family: monospace;
+  margin-left: 30px;
+  text-align: center;
+}
+.footer .footer__container .link__list {
+  display: flex;
+  margin: 0 50px;
+}
+.footer .footer__container .link__list .footer__column {
+  display: flex;
+  flex-direction: column;
+  margin: 0 100px;
+  text-align: center;
+}
+.footer .footer__container .link__list .footer__column .link__list-title {
+  color: white;
+  text-decoration: underline;
+}
+.footer .footer__container .link__list .footer__column .link__list-itm {
+  margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+  .header .menu .header__contact .contact-phoneNumber, .header .menu .header__contact .contact-email {
+    font-size: 15px;
+  }
+  .header .menu .menu__itm {
+    width: 293px;
+    position: relative;
+    bottom: 3px;
+  }
+  .header .menu .menu__itm .itm-link {
+    font-size: 15px;
+    margin: 0 5px;
+  }
+  .header .menu .container__logo .logo-img {
+    height: 35px;
+  }
+  .header .menu .container__logo .menu-logo {
+    font-size: 15px;
+  }
+  .footer .footer__container {
+    position: relative;
+  }
+  .footer .footer__container .footer__logo {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+  }
+  .footer .footer__container .footer__logo .domain {
+    font-size: 27px;
+    position: absolute;
+    left: 10px;
+  }
+  .footer .footer__container .link__list {
+    width: 430px;
+    position: absolute;
+    right: 19px;
+    top: -20px;
+  }
+  .footer .footer__container .link__list .footer__column {
+    margin: 0 50px;
+  }
+}
+@media (min-width: 320px) and (max-width: 425px) {
+  .header .menu {
+    position: relative;
+  }
+  .header .menu .header__contact {
+    display: none;
+  }
+  .header .menu .menu__itm {
+    width: 250px;
+    position: absolute;
+    bottom: 27px;
+    right: 15px;
+  }
+  .header .menu .menu__itm .itm-link {
+    font-size: 12px;
+    margin: 0 5px;
+  }
+  .header .menu .container__logo {
+    position: absolute;
+    left: 37px;
+    top: 3px;
+    display: flex;
+    flex-direction: column;
+  }
+  .header .menu .container__logo .logo-img {
+    height: 25px;
+    position: relative;
+    left: 0;
+  }
+  .header .menu .container__logo .menu-logo {
+    font-size: 15px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    left: -10px;
+    top: 7px;
+  }
+  .footer .footer__container .footer__logo {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+  }
+  .footer .footer__container .footer__logo .domain {
+    font-size: 27px;
+    display: none;
+  }
+  .footer .footer__container .link__list {
+    width: 375px;
+    position: absolute;
+    top: -19px;
+    right: 10px;
+  }
+  .footer .footer__container .link__list .footer__column {
+    margin: 0 50px;
+  }
+}/*# sourceMappingURL=main.css.map */

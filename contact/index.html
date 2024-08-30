@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./../style/contact/main.css">
+	<title>Contact</title>
+</head>
+<body>
+	<header class="header">
+		<nav class="menu">
+			<div class="container__logo">
+				<a href=""><img src="./../img/02.webp" alt="" class="logo-img"></a>
+				<a href="./../index.html" class="menu__logo menu-logo">Domain</a>
+			</div>
+			<li class="menu__itm">
+				<a href="./../about/index.html" class="menu__itm-link itm-link">Over ons</a>
+				<a href="./../catalog/index.html" class="menu__itm-link itm-link">Catalogus</a>
+				<a href="./../contact/index.html" class="menu__itm-link itm-link active">Contacten</a>
+			</li>
+			<div class="header__contact">
+				<a href="#" class="header__contact-phoneNumber contact-phoneNumber">+38 (068) 377 0948</a>
+				<p class="header__contact-email contact-email">domain@domain.com</p>
+			</div>
+		</nav>
+	</header>
+
+	<div class="form-container">
+		<form class="form" id="customForm">
+						<h2 class="form__title">Neem contact met ons op</h2>
+						<div class="form__group">
+										<label for="name" class="form__label">Naam</label>
+										<input type="text" id="name" class="form__input" placeholder="Voer uw naam in" required>
+						</div>
+						<div class="form__group">
+										<label for="email" class="form__label">E-mail</label>
+										<input type="email" id="email" class="form__input" placeholder="Voer uw e-mailadres in" required>
+						</div>
+						<div class="form__group">
+										<label for="message" class="form__label">Bericht</label>
+										<textarea id="message" class="form__textarea" placeholder="Voer uw bericht in" required></textarea>
+						</div>
+						<button type="submit" class="form__button">Indienen</button>
+		</form>
+</div>
+<script src="./../script.js"></script>
+
+	<footer class="footer">
+		<div class="footer__container">
+			<div class="footer__logo">
+				<img src="./img/02.webp" alt="" class="footer-img">
+				<p class="domain">Domain</p>
+			</div>
+			<div class="link__list">
+				<div class="footer__column">
+					<p class="link__list-title">Koppelingen</p>
+					<a href="#" class="link__list-itm">Over ons</a>
+					<a href="#" class="link__list-itm">Catalogus</a>
+					<a href="#" class="link__list-itm">Contacten</a>
+				</div>
+			<div class="footer__column">
+				<p class="link__list-title">Contacten</p>
+				<a href="#" class="link__list-itm">37 Sheptytskogo-straat, Kiev</a>
+				<a href="#" class="link__list-itm">domain@domain.com</a>
+				<a href="#" class="link__list-itm">+38 (068) 377 0948</a>
+		</div>
+	</footer>
+</body>
+</html>
